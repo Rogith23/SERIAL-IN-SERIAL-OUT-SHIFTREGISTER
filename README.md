@@ -46,7 +46,7 @@ Developed by: J ROGITH
 
 Register Number: 212224040280
 ```
-module siso(clk, sin, q);
+module EXP10(clk, sin, q);
 input clk;
 input sin;
 output [3:0] q;
@@ -63,12 +63,13 @@ endmodule
 
 **RTL DIAGRAM**
 
-![image](https://github.com/user-attachments/assets/c4c43a6c-ffe1-4d18-9235-7c1ad1838667)
+![image](https://github.com/user-attachments/assets/4fd594af-0ae5-4476-a99f-a2231dc8aeeb)
 
 **TIMING WAVEFORM**
 
-![image](https://github.com/user-attachments/assets/b1e1f6d4-9b3a-4c99-990b-cec180a91415)
+![image](https://github.com/user-attachments/assets/21990c3f-6d40-4dc4-9bec-e84f43adecb6)
 
-**RESULTS**
+
+**RESULT**
 
  SISO Shift Register using verilog and validating their functionality using their functional tables has successful execution of the program.
